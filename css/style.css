@@ -1,26 +1,48 @@
-table {
-  border: 10px solid blue;
-  margin: 10px;
+
+
+.body {
+  font-family:Arial, Helvetica, sans-serif
 }
 
-td {
-  border: 1px solid black;
-  padding: 10px;
+h1 {
+  color: red ;
+  text-align: center;
 }
 
-tr:nth-child(odd) {
-  background-color: red;
+h1+p{
+  color: violet ;
+}
+h1+p+p{
+  color: violet ;
 }
 
-tr {
-  border: solid yellow 5px;
+h2 {
+  text-decoration: underline;
 }
 
-tr:last-child {
-  color: violet;
+h2+p{
+  color: red ;
+  font-style: italic;
+}
+
+h2+p+p{
+  color: red ;
+  font-style: italic;
+}
+
+h2 {
+  color: blue;
 
 }
 
-td:first-letter {
-  font-size: 20px;
+section>h2{
+  color: green ;
+
+  
+}
+
+article>h2{
+  color: blue ;
+
+  
 }
